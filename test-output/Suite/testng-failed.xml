@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://demowebshop.tricentis.com/"/>
+  <listeners>
+    <listener class-name="utils.ListenerClass"/>
+  </listeners>
+  <test name="Data driven Test(failed)">
+    <classes>
+      <class name="test.TC_002_LoginTest">
+        <methods>
+          <include name="launchAndLoadURL"/>
+          <include name="browserClose"/>
+          <include name="reportInitilization"/>
+          <include name="reportClose"/>
+          <include name="setup"/>
+          <include name="loginTest" invocation-numbers="1"/>
+          <include name="testDetails"/>
+        </methods>
+      </class> <!-- test.TC_002_LoginTest -->
+    </classes>
+  </test> <!-- Data driven Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
