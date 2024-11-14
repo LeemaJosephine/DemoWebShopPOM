@@ -20,7 +20,7 @@ public class ProjectSepcificationMethods extends UtilityClass {
 	@BeforeSuite
 	public void reportInitilization() {
 		
-		String path="C:\\Users\\Digital Suppliers\\Downloads\\DemoWebShopPOM-master\\DemoWebShopPOM-master\\reports\\DemoWebShopReport";
+		String path="C:\\Users\\Digital Suppliers\\Downloads\\DemoWebShopPOM-master\\DemoWebShopPOM-master\\reports\\DemoWebShopReport.html";
 		// To create report in the given location
 		ExtentSparkReporter reporter = new ExtentSparkReporter(path);
 		reporter.config().setReportName("DemoWebShop Report");

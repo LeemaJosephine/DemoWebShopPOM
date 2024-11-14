@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-14T07:57:33Z" name="Suite" finished-at="2024-11-14T07:57:55Z" duration-ms="22160">
+  <suite started-at="2024-11-14T08:06:43Z" name="Suite" finished-at="2024-11-14T08:07:04Z" duration-ms="21349">
     <groups>
     </groups>
-    <test started-at="2024-11-14T07:57:33Z" name="Data driven Test" finished-at="2024-11-14T07:57:55Z" duration-ms="22160">
+    <test started-at="2024-11-14T08:06:43Z" name="Data driven Test" finished-at="2024-11-14T08:07:04Z" duration-ms="21349">
       <class name="test.TC_002_LoginTest">
-        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:32Z" name="reportInitilization" finished-at="2024-11-14T13:27:33Z" duration-ms="784" status="PASS">
+        <test-method is-config="true" signature="reportInitilization()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:36:42Z" name="reportInitilization" finished-at="2024-11-14T13:36:43Z" duration-ms="1019" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportInitilization -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:33Z" name="setup" finished-at="2024-11-14T13:27:33Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:36:43Z" name="setup" finished-at="2024-11-14T13:36:43Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:33Z" name="testDetails" finished-at="2024-11-14T13:27:33Z" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="testDetails()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:36:43Z" name="testDetails" finished-at="2024-11-14T13:36:43Z" duration-ms="30" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDetails -->
-        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:35Z" name="launchAndLoadURL" finished-at="2024-11-14T13:27:43Z" duration-ms="7250" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:36:45Z" name="launchAndLoadURL" finished-at="2024-11-14T13:36:53Z" duration-ms="7579" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadURL -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:43Z" name="loginTest" data-provider="excelRead" finished-at="2024-11-14T13:27:45Z" duration-ms="2510" status="PASS">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:36:53Z" name="loginTest" data-provider="excelRead" finished-at="2024-11-14T13:36:55Z" duration-ms="2247" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:45Z" name="browserClose" finished-at="2024-11-14T13:27:46Z" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:36:55Z" name="browserClose" finished-at="2024-11-14T13:36:56Z" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:46Z" name="launchAndLoadURL" finished-at="2024-11-14T13:27:53Z" duration-ms="7197" status="PASS">
+        <test-method is-config="true" signature="launchAndLoadURL(java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:36:56Z" name="launchAndLoadURL" finished-at="2024-11-14T13:37:02Z" duration-ms="6447" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchAndLoadURL -->
-        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:53Z" name="loginTest" data-provider="excelRead" finished-at="2024-11-14T13:27:55Z" duration-ms="1821" status="FAIL">
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:37:02Z" name="loginTest" data-provider="excelRead" finished-at="2024-11-14T13:37:04Z" duration-ms="1726" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -146,11 +146,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:55Z" name="browserClose" finished-at="2024-11-14T13:27:55Z" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:37:04Z" name="browserClose" finished-at="2024-11-14T13:37:04Z" duration-ms="413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:27:55Z" name="reportClose" finished-at="2024-11-14T13:27:57Z" duration-ms="1177" status="PASS">
+        <test-method is-config="true" signature="reportClose()[pri:0, instance:test.TC_002_LoginTest@5b38c1ec]" started-at="2024-11-14T13:37:04Z" name="reportClose" finished-at="2024-11-14T13:37:05Z" duration-ms="826" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reportClose -->
